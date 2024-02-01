@@ -1,0 +1,96 @@
+/* Reset margin dan padding pada body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f2f2;
+  background-image: url(png/putih.jpg);
+  background-size: cover;
+}
+
+/* Tata letak untuk bagian atas */
+.atas {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.atas img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.satu {
+  display: flex;
+  flex-direction: column; /* Menata teks secara vertikal */
+}
+
+.satu p {
+  margin: 0; /* Menghilangkan margin default */
+}
+
+.dua {
+  margin-top: 2px; /* Menambahkan jarak antara teks "Portofolio Mahasiswa" dan "Web Design Universitas Sibermu Yogyakarta" */
+  font-size: 11px;
+}
+
+/* Tata letak untuk intro */
+.intro {
+  text-align: center;
+  padding: 20px;
+}
+
+.intro img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.intro h1 {
+  margin-top: 20px;
+}
+
+.kartu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.kartu1,
+.kartu2,
+.kartu3,
+.kartu4,
+.kartu5,
+.kartu6 {
+  margin: 10px; /* Memberikan jarak antara kartu-kartu */
+}
+
+.card {
+  width: 12rem;
+}
+
+@media screen and (max-width: 768px) {
+  .kartu {
+    flex-direction: column; /* Mengubah tata letak menjadi tumpukan vertikal pada layar kecil */
+    align-items: center; /* Memastikan semua kartu berada di tengah-tengah */
+  }
+}
+
+.motifasi {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Tata letak untuk footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
