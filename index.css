@@ -1,4 +1,4 @@
-/* Reset margin dan padding pada body */
+8/* Reset margin dan padding pada body */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -86,7 +86,7 @@ body {
 
 /* Tata letak untuk footer */
 footer {
-  position: fixed;
+  position: flex;
   bottom: 0;
   width: 100%;
   background-color: #333;
